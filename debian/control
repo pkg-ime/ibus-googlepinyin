@@ -1,7 +1,9 @@
 Source: ibus-googlepinyin
 Section: utils
 Priority: optional
-Maintainer: YunQiang Su <wzssyqa@gmail.com>
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+DM-Upload-Allowed: yes
+Uploaders: YunQiang Su <wzssyqa@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), cmake
 Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/libgooglepinyin/

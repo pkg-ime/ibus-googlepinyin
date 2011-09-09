@@ -1,0 +1,18 @@
+Source: ibus-googlepinyin
+Section: utils
+Priority: optional
+Maintainer: YunQiang Su <wzssyqa@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.2
+Homepage: http://code.google.com/p/libgooglepinyin/
+Vcs-Git: git://git.debian.org/pkg-ime/ibus-googlepinyin.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/ibus-googlepinyin.git
+
+Package: ibus-googlepinyin
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-support (>= 0.90), python-googlepinyin, libopencc1
+Description: googlepinyin engine for ibus
+ libgooglepinyin is a fork of Google Pinyin on Android, it features
+ to have excellent input experience and uses little resource.
+ .
+ This package is for IBus to use libgooglepinyin.

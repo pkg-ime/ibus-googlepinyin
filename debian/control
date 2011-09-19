@@ -12,7 +12,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-ime/ibus-googlepinyin.git
 
 Package: ibus-googlepinyin
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, libgooglepinyin0, libopencc1
+Depends: ${misc:Depends}, ${python:Depends}, libgooglepinyin0, libopencc1, ibus
 Description: googlepinyin engine for ibus
  libgooglepinyin is a fork of Google Pinyin on Android, it features
  to have excellent input experience and uses little resource.

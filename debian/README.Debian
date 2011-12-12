@@ -1,0 +1,23 @@
+ibus-googlepinyin does not support configure now,
+	and has not many thing configurable.
+	If you want to set the number of candidates:
+	edit 
+	   /usr/share/ibus-googlepinyin/engine.py
+	goto the line 67;
+	modify 
+	   self.__lookup_table.set_page_size(5)
+	to 
+	   self.__lookup_table.set_page_size(9)
+	Note: do *NOT* set it to 10 or greater.
+
+ibus-googlepinyin 尚不支持配置，也没有多少可以配置的地方。
+   如果想修改候选词的数量：
+   请修改
+     /usr/share/ibus-googlepinyin/engine.py
+   的第67行，比如将
+     self.__lookup_table.set_page_size(5)
+   修改为
+     self.__lookup_table.set_page_size(9)
+   注意：不要必须要*小于*10。
+
+  -- YunQiang Su <wzssyqa@gmail.com>

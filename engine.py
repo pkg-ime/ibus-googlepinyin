@@ -64,6 +64,7 @@ class Engine(ibus.EngineBase):
         self.__is_invalidate = False
         self.__prepinyin_string = u""
         self.__lookup_table = ibus.LookupTable()
+        self.__lookup_table.set_page_size(5)
 
         # 0 = english input mode
         # 1 = chinese input mode

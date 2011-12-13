@@ -1,3 +1,10 @@
+ibus-googlepinyin (0.1.1+hg20111212-1) unstable; urgency=low
+
+  * New upstream commit: change data path
+      use glob.glob (Closes: #650272).
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Tue, 13 Dec 2011 17:55:26 +0800
+
 ibus-googlepinyin (0.1.1-2) unstable; urgency=low
 
   * Work with libgooglepinyin0:
